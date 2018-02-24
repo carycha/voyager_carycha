@@ -115,13 +115,15 @@ return [
         /*
          * Select default language
          */
-        'default' => 'en',
+        #'default' => 'en',
+        'default' => 'zh_CN',
 
         /*
          * Select languages that are supported.
          */
         'locales' => [
-            'en',
+            #'en',
+            'zh_CN',
             //'pt',
         ],
     ],
