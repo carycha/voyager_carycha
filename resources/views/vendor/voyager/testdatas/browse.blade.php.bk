@@ -61,7 +61,7 @@
                                             @if ($isServerSide)
                                                 <a href="{{ $row->sortByUrl() }}">
                                             @endif
-                                            //秀出欄位名稱
+                                            {{-- 秀出欄位名稱 --}}
                                             {{ $row->display_name }}
                                             @if ($isServerSide)
                                                 @if ($row->isCurrentSortField())
